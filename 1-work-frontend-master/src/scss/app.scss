@@ -1,0 +1,23 @@
+@import './navbar.scss';
+@import './Home.scss';
+@import './context.scss';
+@import './action.scss';
+@import './users.scss';
+@import './dashboard.scss';
+@import './form.scss';
+@import './cart.scss';
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+
+
+main{
+    background-color: rgb(23, 40, 54);
+}

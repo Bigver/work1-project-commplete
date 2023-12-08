@@ -1,0 +1,58 @@
+.navbar-ctn{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 95px;
+    align-items: center;
+    background-color: rgb(10, 30, 47);
+    @media only screen and (max-width: 550px) {
+        height: 80px;
+      }
+    .logo{
+    margin-left: 4%;
+       img{
+            border-radius: 50%;
+            width: 70px;
+            height: 60px;
+            @media only screen and (max-width: 550px) {
+                width: 50px;
+                height: 40px;
+              }
+       }
+    }
+    .search-bar{
+        margin-right: 5%;
+        display: flex;
+        gap: 2rem;
+        input{
+            border-radius: 10px 0px 0px 10px;
+            width: 230px;
+            height: 30px;
+            border: 1px solid rgb(172, 171, 171);
+            font-size: 1.3rem;
+            letter-spacing: 2px;
+        }
+        button{
+            border-radius: 0px 10px 10px 0px;
+            width: 50px;
+            height: 32px;
+            bottom: 2px;
+            position: relative;
+            border: 1px solid rgb(172, 171, 171);
+            background-color: white;
+        }
+        .login{
+            background-color: aliceblue;
+            display: grid;
+            align-items: center;
+            border-radius: 20px;
+            margin-top: -3px;
+            a{
+                color: rgb(0, 0, 0);
+                padding: 7px;
+                list-style: none;
+                text-decoration: none;
+            }
+        }
+    }
+}

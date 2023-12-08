@@ -1,0 +1,40 @@
+.form-ctn{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: white;
+    .container-form{
+        border: 1px solid rgb(197, 196, 196);
+        padding: 50px;
+        border-radius: 30px;
+        margin-top: 100px;
+        width: 50vh;
+        display: grid;
+        gap: 1rem;
+        @media only screen and (max-width: 550px) {
+            width: 40vh;
+        }
+        .input-btn{
+            display: grid;
+            button{
+                background-color: black;
+                color: white;
+                height: 50px;
+                border-radius: 10px;
+            }
+        }
+        .input{
+            display: grid;
+            gap: 0.5rem;
+            font-weight: bolder;
+            input{
+                border: 1px solid rgb(200, 200, 200);
+                width: 100%;
+                height: 30px;
+                border-radius: 20px;
+            }
+        }
+    }
+}
+

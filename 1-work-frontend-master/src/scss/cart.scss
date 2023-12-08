@@ -1,0 +1,77 @@
+.content-ctn1{
+    display: grid;
+    height: 100%;
+    .text-none{
+        .text-ctn{
+            height: 70vh;
+            font-size: 3vh;
+            color: white;
+            a{
+                color: rgb(255, 3, 3);
+            }
+        }
+        text-align: center;
+        display: grid;
+        justify-content: center;
+    }
+    .content{
+        height: 100%;
+        display: grid;
+        align-items: center;
+        justify-self: center;
+        gap: 5rem;
+        .card{
+            .text{
+                display: grid;
+                justify-content: center;
+                text-align: center;
+            }
+            @media only screen and (max-width: 550px) {
+                width: 90%;
+                margin-left: 5%;
+              }
+            .heart{
+                position: absolute;
+                top: 50px;
+                background-color: rgb(255, 255, 255);
+                width: 40px;
+                border-radius: 0px 10px 10px 0px;
+            }
+            width: 70vh;
+            height: 48vh;
+            background-color: white;
+            border-radius: 20px;
+            position: relative;
+            .btn-2{
+                position: absolute;
+                top: 10px;
+                border-radius: 0px 10x 10px 0px;
+                background-color: white;
+                color: black;
+                width: 50px;
+                border: 1px solid  white;
+            }
+            img{
+                width: 100%;
+                height: 70%;
+                border-radius: 20px;
+                @media only screen and (max-width: 550px) {
+                    object-fit: cover;
+                  }
+            }
+            h1{
+                color: black;
+            }
+            button{
+                cursor: pointer;
+                width: 200px;
+                height: 50px;
+                border-radius: 10px;
+                background-color: black;
+                color: white;
+            }
+        }
+    }
+    padding-top: 150px;
+    padding-bottom: 200px;
+}

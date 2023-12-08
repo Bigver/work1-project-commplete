@@ -1,0 +1,95 @@
+.home-ctn{
+    color: rgb(230, 230, 230);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .text{
+        width: 70vh;
+        @media only screen and (max-width: 550px) {
+            width: 400px;
+          }
+        font-size: 3vh;
+        height: 70vh;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        position: relative;
+        img{
+            width: 70vh;
+            position: absolute;
+            z-index: 0;
+            @media only screen and (max-width: 550px) {
+                right: -5%;
+               }
+        }
+   
+        h1{
+            @media only screen and (max-width: 550px) {
+               position: relative;
+               width: 100%;
+               margin-left: 0%;
+              }
+            position: absolute;
+            z-index: 1;
+            margin-left: 18%;
+        }
+    }
+    .img{
+        img{
+            width: 70vh;
+            border-radius: 50px;
+        }
+    }
+    .search-bar1{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+        gap: 2rem;
+        margin-top: 200px;
+        li{
+            color: white;
+            list-style: none;
+        }
+        .link{
+            color: white;
+            text-decoration: none;
+        }
+        .bar{
+            display: flex;
+            input{
+                border-radius: 10px 0px 0px 10px;
+                width: 230px;
+                height: 30px;
+                border: 1px solid rgb(172, 171, 171);
+                font-size: 1.3rem;
+                letter-spacing: 2px;
+            }
+        }
+        button{
+            border-radius: 0px 10px 10px 0px;
+            width: 50px;
+            height: 32px;
+            position: relative;
+            border: 1px solid rgb(172, 171, 171);
+            background-color: white;
+        }
+        .login{
+            background-color: aliceblue;
+            display: grid;
+            align-items: center;
+            border-radius: 20px;
+            margin-top: -3px;
+            a{
+                color: rgb(0, 0, 0);
+                padding: 7px;
+                list-style: none;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+
